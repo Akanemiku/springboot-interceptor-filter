@@ -1,5 +1,7 @@
 package github.akanemiku.springbootinterceptorfilter.config;
 
+import github.akanemiku.springbootinterceptorfilter.filter.MyFilter;
+import github.akanemiku.springbootinterceptorfilter.filter.MyFilter2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
